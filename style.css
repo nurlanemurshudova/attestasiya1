@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-image: url(pexels-pixabay-35888.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 900;
+  }
+  a:hover{
+    color: chocolate;
+  }
+  .galaxy , .profile{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+  }
+  .profile a{
+    padding: 0 25px;
+  }
+  h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 250px;
+  }
